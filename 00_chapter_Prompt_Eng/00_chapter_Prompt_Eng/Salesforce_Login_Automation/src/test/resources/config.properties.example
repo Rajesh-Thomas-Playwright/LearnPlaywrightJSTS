@@ -1,0 +1,4 @@
+sf.baseUrl=https://login.salesforce.com/
+sf.locale=in
+headless=false
+explicit.timeout=15
