@@ -17,8 +17,6 @@ console.log(n)
 const arr = [...tokens];
 console.log(arr)
 
-let outputString;
-
 let frequency = {};
 
 for(let item of arr){

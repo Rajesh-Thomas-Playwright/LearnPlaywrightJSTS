@@ -9,6 +9,6 @@ let homeRuns = 3;
 
 console.log(Array.isArray(homeRuns))
 
-console.log(browsers.at(0));
+console.log(browsers.at(1));
 
   
