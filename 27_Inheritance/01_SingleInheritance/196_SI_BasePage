@@ -1,0 +1,25 @@
+class BasePage {
+    constructor(pageName){
+        this.pageName = pageName;
+    }
+
+    open(){
+        console.log("Opening the page")
+    }
+
+    close(){
+        console.log("Close the page");
+    }
+
+}
+
+class loginPage extends BasePage {
+
+}
+
+let page = new loginPage("Test");
+
+console.log(page.pageName);
+
+page.open();
+page.close();
